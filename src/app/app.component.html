@@ -1,0 +1,8 @@
+<!-- app.component.html -->
+<input
+  type="text"
+  [(ngModel)]="inputText"
+  (input)="updateText()"
+  placeholder="Type here..."
+/>
+<div #rendererContainer></div>
